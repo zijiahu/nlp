@@ -17,8 +17,8 @@ This .txt file stores all the returned match of the regular expression of the fi
 
 #### `telephone_regexp.java`:  
 Program that identifies telephone numbers.
-- including telephone numbers with area code. (eg. (xxx) xxx-xxxx or xxx-xxx-xxxx or xxx/xxx-xxxx )
-- including telephone numbers without area code. (eg. xxx-xxxx )
+- including telephone numbers with area code. (eg. `(xxx) xxx-xxxx` or `xxx-xxx-xxxx` or `xxx/xxx-xxxx` )
+- including telephone numbers without area code. (eg. `xxx-xxxx` )
 
 This program will return each match of the regular expression into an output file,`telephone_output.txt`, one match per line.
 
