@@ -3,9 +3,9 @@
 There are 2 possible versions of each file:
 
 -  file.pos -- there are two columns separated by a tab:
-   1st column: token
-   2nd column: POS tag
-   Blank lines separate sentences.
+   - 1st column: token
+   - 2nd column: POS tag
+   - Blank lines separate sentences.
 
    This is the format of training files, system output, and development or test files used for scoring purposes.
 
