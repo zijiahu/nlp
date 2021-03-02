@@ -19,6 +19,7 @@ Use the following command to run my system.
 1. To compile the file, use `javac zh1130_HW3.java`
 
 2. To run my system, use `java zh1130_HW3 WSJ_02-21.pos WSJ_23.words`
+
 My program takes two command line arguments. The first one is the name of the develop corpus, and the second one is the name of the test corpus. Thus, the first command line argument can be replaced by the name of any develop corpus. Similarly, the second command line argument can be replaced by the name of any test corpus.
 
 3. Check the file named "submission.pos" to see the result
