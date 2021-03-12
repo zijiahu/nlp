@@ -25,7 +25,6 @@ public class zh1130_HW4{
 
 	public static int total_docs = 0;
 	public static HashMap<String, Double> doc_IDF = new HashMap<>();
-	public static HashMap<String, String> normalization = new HashMap<>();
 
 
 	public static void main(String[] args) throws Exception{
@@ -56,13 +55,6 @@ public class zh1130_HW4{
 		HashMap<Integer, HashMap<String, Integer>> abstracts = new HashMap<>();
 		HashMap<String, Integer> query = new HashMap<>();
 		HashMap<String, Integer> abst = new HashMap<>();
-
-		////
-		normalization.put("sses", "ss");
-		normalization.put("ies", "i");
-		normalization.put("ational", "ate");
-		normalization.put("tional", "tion");
-		////
 
 
 		BufferedReader br_query = new BufferedReader(new FileReader(filepath_query));
