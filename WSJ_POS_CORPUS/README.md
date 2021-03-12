@@ -13,14 +13,18 @@ There are 2 possible versions of each file:
    Format of an input file for a tagging program.
 
 
-### How to run this program:
+## How to run this program:
 Use the following command to run my system.
 
-1. To compile the file, use `javac zh1130_HW3.java`
+1. To compile the file, use 
 
-2. To run my system, use `java zh1130_HW3 WSJ_02-21.pos WSJ_23.words`
+	`javac zh1130_HW3.java`
 
-My program takes two command line arguments. The first one is the name of the develop corpus, and the second one is the name of the test corpus. Thus, the first command line argument can be replaced by the name of any develop corpus. Similarly, the second command line argument can be replaced by the name of any test corpus.
+2. To run my system, use 
+
+	`java zh1130_HW3 WSJ_02-21.pos WSJ_23.words`
+
+	My program takes two command line arguments. The first one is the name of the develop corpus, and the second one is the name of the test corpus. Thus, the first command line argument can be replaced by the name of any develop corpus. Similarly, the second command line argument can be replaced by the name of any test corpus.
 
 3. Check the file named "submission.pos" to see the result
 
@@ -28,29 +32,29 @@ The way I used to handle OOV is simply give every out of vocabulary word a defau
 
 
 
-### File details:
+## File details:
 
-#### `WSJ_02-21.pos`  
+### `WSJ_02-21.pos`  
 To use as the training corpus.
 
 
-#### `WSJ_24.words` 
+### `WSJ_24.words` 
 To use as the development set (for testing the system).
 
 
-#### `WSJ_24.pos`
+### `WSJ_24.pos`
 To use to check how well the system is doing.
 
 
-#### `WSJ_23.words`  
+### `WSJ_23.words`  
 To run the system on. The output file named `submission.pos` will be in the .pos format.
 
 
-#### `submission.pos`
+### `submission.pos`
 The output file in the .pos format.
 
 
-#### `score.py`
+### `score.py`
 This is a scorer which can be used on the development corpus. 
 
 The scoring command is: 
