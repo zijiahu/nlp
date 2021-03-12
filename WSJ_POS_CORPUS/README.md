@@ -1,4 +1,4 @@
-# WSJ_POS_CORPUS
+# WSJ\_POS_CORPUS
 
 There are 2 possible versions of each file:
 
@@ -57,7 +57,7 @@ The scoring command is:
 
 `python3 score.py WSJ_24.pos WSJ_24_sys.pos`
 
-assuming that the system output is called WSJ_24_sys.pos
+assuming that the system output is called WSJ\_24_sys.pos
 
 This will give you an accuracy score for further debugging and tuning.
 
