@@ -38,16 +38,16 @@ Use the following command to run my system.
 
 ## File details:
  
-###`/WSJ_CHUNK_FILES/WSJ_02-21.pos-chunk`
+### `/WSJ_CHUNK_FILES/WSJ_02-21.pos-chunk`
 the training file
 
-###`/WSJ_CHUNK_FILES/WSJ_24.pos`
+### `/WSJ_CHUNK_FILES/WSJ_24.pos`
 the development file that you will test your system on
 
-###`/WSJ_CHUNK_FILES/WSJ_24.pos-chunk`
+### `/WSJ_CHUNK_FILES/WSJ_24.pos-chunk`
 the answer key to test your system output against
 
-###`/WSJ_CHUNK_FILES/WSJ_23.pos`
+### `/WSJ_CHUNK_FILES/WSJ_23.pos`
 the test file, to run your final system on, producing system output
 
 ### `/MAX_ENT_FILES/maxent-3.0.0.jar` 
